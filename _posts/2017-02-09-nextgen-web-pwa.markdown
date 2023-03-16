@@ -14,7 +14,7 @@ tags:
 
 
 > 今年 9 月份的时候，《程序员》杂志社就邀请我写一篇关于 PWA 的文章。后来花式拖稿，拖过了 10 月的 QCon，11 月的 GDG DevFest，终于在 12 月把这篇长文熬了出来。几次分享的不成熟，这次的结构算是比较满意了。「 可能是目前中文世界里对 PWA 最全面详细的长文了」，希望你能喜欢。<br><br>
-> 本文首发于 [CSDN](http://geek.csdn.net/news/detail/135595) 与《程序员》2017 年 2 月刊，同步发布于 [Hux Blog](https://huangxuan.me)、[前端外刊评论 - 知乎专栏](https://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留链接 ;)
+> 本文首发于 [CSDN](http://geek.csdn.net/news/detail/135595) 与《程序员》2017 年 2 月刊，同步发布于 [ETC RedTeam](https://huangxuan.me)、[前端外刊评论 - 知乎专栏](https://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留链接 ;)
 
 
 ## 下一代 Web 应用？
@@ -52,7 +52,7 @@ Progressive Web Apps（以下简称 PWA）以及构成 PWA 的一系列关键技
 ![](/img/in-post/post-nextgen-web-pwa/flipkart-3.jpeg)
 *图片来源: Hux & [@adityapunjani][i4]*
 
-图中从左到右分别为：类似原生应用的安装界面；被收纳在应用抽屉里的 Flipkart Lite 与 Hux Blog；设置界面中并列出现的 Flipkart 原生应用与 Flipkart Lite PWA （可以看到 PWA 巨大的体积优势）
+图中从左到右分别为：类似原生应用的安装界面；被收纳在应用抽屉里的 Flipkart Lite 与 ETC RedTeam；设置界面中并列出现的 Flipkart 原生应用与 Flipkart Lite PWA （可以看到 PWA 巨大的体积优势）
 
 **笔者相信，PWA 模型将继约 20 年前横空出世的 Ajax 与约 10 年前风靡移动互联网的响应式设计之后，掀起 web 应用模型的第三次根本性革命，将 web 应用带进一个全新的时代。**
 
@@ -125,7 +125,7 @@ Web App Manifest，即通过一个清单文件向浏览器暴露 web 应用的�
 诸如 `name`、`icons`、`display` 都是我们比较熟悉的，而大部分新增的成员则为 web 应用带来了一系列以前 web 应用想做却做不到（或在之前只能靠 hack）的新特性：
 
 - `scope`：定义了 web 应用的浏览作用域，比如作用域外的 URL 就会打开浏览器而不会在当前 PWA 里继续浏览。
-- `start_url`：定义了一个 PWA 的入口页面。比如说你添加 [Hux Blog][21] 的任何一个文章到主屏，从主屏打开时都会访问 [Hux Blog][21] 的主页。
+- `start_url`：定义了一个 PWA 的入口页面。比如说你添加 [ETC RedTeam][21] 的任何一个文章到主屏，从主屏打开时都会访问 [ETC RedTeam][21] 的主页。
 - `orientation`：终于，我们可以锁定屏幕旋转了（喜极而泣…）
 - `theme_color`/`background_color`：主题色与背景色，用于配置一些可定制的操作系统 UI 以提高用户体验，比如 Android 的状态栏、任务栏等。
 
@@ -234,7 +234,7 @@ self.onfetch = (e) => {
 ![](/img/in-post/post-nextgen-web-pwa/sw-race.png)
 *Service Worker 的一种缓存策略：让网络请求与读取缓存比赛*
 
-你也可以尝试在支持 PWA 的浏览器中访问笔者的博客 [Hux Blog][21]，感受 Service Worker 的实际效果：所有访问过的页面都会被缓存并允许在离线环境下继续访问，所有未访问过的页面则会在离线环境下展示一个自定义的离线页面。
+你也可以尝试在支持 PWA 的浏览器中访问笔者的博客 [ETC RedTeam][21]，感受 Service Worker 的实际效果：所有访问过的页面都会被缓存并允许在离线环境下继续访问，所有未访问过的页面则会在离线环境下展示一个自定义的离线页面。
 
 在笔者看来，**Service Worker 对 PWA 的重要性相当于 `XMLHTTPRequest` 之于 Ajax，媒体查询（Media Query）之于响应式设计，是支撑 PWA 作为「下一代 web 应用模型」的最核心技术。**由于 Service Worker 可以与包括 Indexed DB、Streams 在内的大部分 DOM 无关 API 进行交互，它的潜力简直无可限量。笔者几乎可以断言，Service Worker 将在未来十年里成为 web 客户端技术工程化的兵家必争之地，带来「离线优先（Offline-first）」的架构革命。
 
@@ -409,7 +409,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 
 [20]: https://msdn.microsoft.com/en-us/library/dn320426%28v=vs.85%29.aspx "Browser configuration schema reference - MSDN"
 
-[21]: https://huangxuan.me "Hux Blog"
+[21]: https://huangxuan.me "ETC RedTeam"
 
 [22]: https://www.html5rocks.com/en/tutorials/notifications/quick/ "Using the Notification API"
 
