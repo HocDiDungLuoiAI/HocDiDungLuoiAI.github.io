@@ -56,7 +56,6 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 	* [侧边栏](#sidebar)
 	* [迷你关于我](#mini-about-me)
 	* [推荐标签](#featured-tags)
-	* [好友链接](#friends)
 	* [HTML5 演示文档布局](#keynote-layout)
 * 评论与 Google/Baidu Analytics
 	* [评论](#comment)
@@ -156,26 +155,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
  
 内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
 
-
-#### Friends
-
-好友链接部分。这会在全部页面显示。
-
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
-
-```
-# Friends
-friends: [
-    {
-        title: "Foo Blog",
-        href: "http://foo.github.io/"
-    },
-    {
-        title: "Bar Blog",
-        href: "http://bar.github.io"
-    }
-]
-```
 
 
 #### Keynote Layout

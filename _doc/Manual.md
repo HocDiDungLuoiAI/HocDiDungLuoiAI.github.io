@@ -10,7 +10,6 @@ ETC RedTeam User Manual
 	* [SideBar](#sidebar)
 	* [Mini About Me](#mini-about-me)
 	* [Featured Tags](#featured-tags)
-	* [Friends](#friends)
 	* [Keynote Layout](#keynote-layout)
 * Misc
 	* [Comment](#comment)
@@ -137,7 +136,7 @@ sidebar-about-description: "your description here"
 sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 ```
 
-Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* are turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
+Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
 
 
 ### Mini About Me
@@ -329,7 +328,6 @@ Shout out to [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-
 #### V1.1
 
 - We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
-- **[Friends](#friends)** is also added as a common feature of blog help you do SEO
 
 #### V1.0
 
