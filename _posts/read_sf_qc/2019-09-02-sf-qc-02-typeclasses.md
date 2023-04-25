@@ -2,7 +2,7 @@
 title: "「SF-QC」2 TypeClasses"
 subtitle: "Quickcheck - A Tutorial on Typeclasses in Coq"
 layout: post
-author: "Hux"
+author: "Admin"
 header-style: text
 hidden: true
 tags:

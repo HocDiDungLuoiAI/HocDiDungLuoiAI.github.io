@@ -57,8 +57,8 @@ SEOTitle: ETC RedTeam          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: w4rf0t     # modify this account to yours
+weibo_username: w4rf0t      # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -81,7 +81,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "Admin"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
