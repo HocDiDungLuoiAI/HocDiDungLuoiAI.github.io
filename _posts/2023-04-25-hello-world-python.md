@@ -28,8 +28,7 @@ Download and Install
 
 - In the text editor, type the following code
 
-```
-python
+```python
 print('Hello World!')
 ```
 - This is a simple Python program that will print the phrase "Hello, World!" to the console.
