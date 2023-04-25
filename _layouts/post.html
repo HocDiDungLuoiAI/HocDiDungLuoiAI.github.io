@@ -50,39 +50,13 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                <!-- {% if site.disqus_username %}
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread">
 
                     </div>
                 </div>
-                <!-- disqus 评论框 end -->
-
-                <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-                <script type="text/javascript">
-                    /* * * CONFIGURATION VARIABLES * * */
-                    var disqus_shortname = "{{site.disqus_username}}";
-                    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-                    var disqus_url = "{{page.id}}";
-
-                    (function () {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                </script>
-                <!-- disqus 公共JS代码 end -->
-                {% endif %}
-                <!-- /** {% if site.disqus_username %} -->
-                <!-- disqus 评论框 start -->
-                <!-- <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread">
-
-                    </div>
-                </div> -->
-                <!-- disqus 评论框 end -->
-                <!-- {% endif %} **/ -->
+                {% endif %} -->
             </div>
 
             <!-- Side Catalog Container -->
@@ -123,17 +97,17 @@ layout: default
 {% include mathjax_support.html %}
 {% endif %}
 
-<!-- {% if site.disqus_username %} -->
+{% if site.disqus_username %}
 <!-- disqus 评论框 start -->
-<!-- <div class="comment">
+<div class="comment">
     <div id="disqus_thread" class="disqus-thread">
 
     </div>
-</div> -->
+</div>
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
@@ -144,9 +118,10 @@ layout: default
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script> -->
+</script>
 <!-- disqus 公共JS代码 end -->
-<!-- {% endif %} -->
+{% endif %}
+
 
 {% if site.anchorjs %}
 <!-- async load function -->
