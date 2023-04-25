@@ -15,7 +15,7 @@ future: true
 RSS: false
 github_username: etc-redteam
 twitter_username: hkphu165
-facebook_username:  www.etc.vn
+# facebook_username:  www.etc.vn
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
