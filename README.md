@@ -1,63 +1,51 @@
-[ETC RedTeam](https://huangxuan.me)
+[ETC RedTeam](https://etc-redteam.github.io)
 ================================
 
 > I never expect this becomes popular.
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](https://etc.vn/resources/company/images/bg-wellcome.jpg)
 
 
-[User Manual 👉](_doc/Manual.md)
---------------------------------------------------
+Posts are simply just Markdown files in the _posts/. Metadata of posts are listed in a YAML style front-matter.
 
-### Getting Started
+For instance, [JS in 20yrs])(https://etc-redteam.github.io/2021/04/10/js-20yrs-preface/) has the front-matter of this:
 
-1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
+---
+layout:     post
+title:      "JS in 20yrs"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2023-01-29 12:00:00
+author:     "Admin"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Life
+    - Meta
+---
+Note: tags section can also be written as tags: [Life, Meta].
 
-2. Installed dependencies in the `Gemfile`:
+After Rake is introduced, we can use the command below to simplify the post creation:
 
-```sh
-$ bundle install 
-```
+rake post title="Hello 2015" subtitle="Hello World, Hello Blog"
+This command will automatially generate a sample post similar as above under the _posts/ folder.
 
-3. Serve the website (`localhost:4000` by default):
+There are a bunch of advanced configs:
 
-```sh
-$ bundle exec jekyll serve  # alternatively, npm start
-```
+a text style header like this with
+header-style: text 
+Turning on Latex support:
+mathjax: true
+Adding a mask to the header picture:
+header-mask: 0.3
+Etc.
 
-### Development (Build From Source)
-
-To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
-
-Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
-
-Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
-
-This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
-
-
-### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
-
-
-Other Resources
----------------
-
-Ports
-- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
-
-[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
-- Out of date. Helps wanted for updating it on par with the main repo
-
-Translation
-- [🇨🇳  中文文档（有点过时）](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
+SideBar
 
 
-License
--------
+SideBar provides possible modules to show off more personal information.
 
-Apache License 2.0.
-Copyright (c) 2015-present Huxpro
-
-ETC RedTeam is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
-Copyright (c) 2013-2016 Blackrock Digital LLC.
+# Sidebar settings
+sidebar: true   # default true
+sidebar-about-description: "your description here"
+sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+Modules Featured Tags, Mini About Me turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (<= 992px, according to Bootstarp Grid System)
