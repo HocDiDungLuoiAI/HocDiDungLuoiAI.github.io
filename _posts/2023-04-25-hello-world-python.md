@@ -31,7 +31,7 @@ Download and Install
 ```python
 print('Hello World!')
 ```
-- This is a simple Python program that will print the phrase "Hello, World!" to the console.
+- This is a `simple Python` program that will print the phrase "Hello, World!" to the console.
 
 ### Save the file
 
