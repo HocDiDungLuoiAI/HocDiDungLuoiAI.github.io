@@ -1,5 +1,5 @@
-[ETC RedTeam](https://etc-redteam.github.io)
-================================
+[ETC RedTeam blog writing structure](https://etc-redteam.github.io)
+====================================
 
 > I never expect this becomes popular.
 
