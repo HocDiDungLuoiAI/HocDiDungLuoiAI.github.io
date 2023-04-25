@@ -23,6 +23,19 @@ The above markdown code contains information about writing and executing a "Hell
     ![image](https://user-images.githubusercontent.com/61643034/234245308-1195116a-37c3-4217-b871-ef4cc3d17872.png)
 
 ### Header of File
+```bash
+---
+layout:       post
+title:        "《Hello World》in Python"
+author:       "w4rf0t"
+header-img: "link_to_image_header"
+header-mask: 0.2
+catalog:      true
+tags:
+    - Code
+    - Python
+---
+```
 
 - The first line `---` indicates the beginning of the markdown document.
 - The `layout` property specifies the layout of the document.
