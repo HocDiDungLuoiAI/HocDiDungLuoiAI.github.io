@@ -2,7 +2,7 @@
 layout:       post
 title:        "《Hello World》in Python"
 author:       "w4rf0t"
-header-img: "https://st.quantrimang.com/photos/image/2021/11/27/bo-suu-tap-hello-world-bang-603-ngon-ngu-lap-trinh.jpg"
+header-img: "https://m.media-amazon.com/images/M/MV5BZTI1NjEwMGEtZWIyYS00NDcxLWFmYTUtMmM3NzE3Yjk3OGEyXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg"
 header-mask: 0.2
 catalog:      true
 tags:
