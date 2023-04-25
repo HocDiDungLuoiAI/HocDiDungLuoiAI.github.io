@@ -9,7 +9,6 @@
 Posts are simply just Markdown files in the _posts/. Metadata of posts are listed in a YAML style front-matter.
 
 For instance, [JS in 20yrs])(https://etc-redteam.github.io/2021/04/10/js-20yrs-preface/) has the front-matter of this:
-
 ---
 layout:     post
 title:      "JS in 20yrs"
