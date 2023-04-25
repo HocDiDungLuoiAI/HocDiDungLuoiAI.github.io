@@ -15,7 +15,7 @@ future: true
 RSS: false
 github_username: etc-redteam
 twitter_username: hkphu165
-# facebook_username:  www.etc.vn
+facebook_username:  www.etc.vn
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -57,8 +57,10 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: etcredteam
-
+disqus_username: etc-redteam
+# setting
+disqus:
+  shortname: etcredteam
 # Netease settings
 netease_comment: false
 
