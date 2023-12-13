@@ -1,14 +1,14 @@
-[ETC RedTeam blog writing structure](https://etc-redteam.github.io)
+[Hocdidungluoi AI blog writing structure](https://hocdidungluoiai.github.io)
 ====================================
 
 > I never expect this becomes popular.
 
-![](https://etc.vn/resources/company/images/bg-wellcome.jpg)
+![](https://hocdidungluoiai.space/resources/company/images/bg-wellcome.jpg)
 
 
 Posts are simply just Markdown files in the _posts/. Metadata of posts are listed in a YAML style front-matter.
 
-For instance, [JS in 20yrs](https://etc-redteam.github.io/2021/04/10/js-20yrs-preface/) has the front-matter of this:
+For instance, [JS in 20yrs](https://hocdidungluoiai.github.io/2021/04/10/js-20yrs-preface/) has the front-matter of this:
 
 ```yml
 ---

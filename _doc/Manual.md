@@ -1,4 +1,4 @@
-ETC RedTeam User Manual
+Hocdidungluoi AI User Manual
 ====================
 
 * Basics
@@ -52,8 +52,8 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: ETC RedTeam             # title of your website
-SEOTitle: ETC RedTeam          # check out docs for more detail
+title: Hocdidungluoi AI             # title of your website
+SEOTitle: Hocdidungluoi AI          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
@@ -241,7 +241,7 @@ Just checkout the code offered by Google/Baidu, and copy paste here, all the res
 ### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“ETC RedTeam”** but I want the title shows in search engine is **“黄玄的博客 | ETC RedTeam”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“Hocdidungluoi AI”** but I want the title shows in search engine is **“黄玄的博客 | Hocdidungluoi AI”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 

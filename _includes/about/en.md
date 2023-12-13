@@ -1,1 +1,1 @@
-Hey, We are from [RedTeam](javascript://alert('We are all here')) at ETC Vietnam JSC.
+Hey, We are from [Hocdidungluoiai Team](javascript://alert('We are all here')) at ETC Vietnam JSC.

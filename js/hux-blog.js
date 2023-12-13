@@ -5,7 +5,7 @@
  */
 
 /*!
-* ETC RedTeam v1.6.0 (http://startbootstrap.com)
+* Hocdidungluoi AI v1.6.0 (http://startbootstrap.com)
 * Licensed under Apache 2.0 
 */
 

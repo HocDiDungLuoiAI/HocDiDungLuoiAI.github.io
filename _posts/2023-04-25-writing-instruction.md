@@ -9,14 +9,14 @@ tags:
     - Instruction
 ---
 
-> This is an instruction for ETC RedTeam members's writing a sample markdown file for this blog。
+> This is an instruction for Hocdidungluoi AI members's writing a sample markdown file for this blog。
 
-I will use [This Page](https://etc-redteam.github.io/2023/04/25/hello-world-python/) for example.
+I will use [This Page](https://hocdidungluoiai.github.io/2023/04/25/hello-world-python/) for example.
 The above markdown code contains information about writing and executing a "Hello, World!" program in Python. It is written using the markdown language which allows the user to format text in a simple and easy-to-read manner. The structure of the markdown code can be analyzed as follows:
 
 ### First of All
 
-- Go to [ETC-RedTeam Repo](https://github.com/ETC-RedTeam/ETC-RedTeam.github.io)
+- Go to [hocdidungluoiai Repo](https://github.com/hocdidungluoiai/hocdidungluoiai.github.io)
 - Type `.` in order go to **Github editing page**
 - At `_posts` folder -> create a new file in `year-month-date-title.md`
 
