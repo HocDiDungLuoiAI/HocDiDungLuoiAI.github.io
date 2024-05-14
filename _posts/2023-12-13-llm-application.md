@@ -4,7 +4,7 @@ title:      "LLM Application"
 subtitle:   ""
 date:       2023-12-13 12:00:00
 author:     "cyborgx0x"
-header-img: "img/post-bg-2015.jpg"
+header-img: "https://i.ibb.co/dg735SW/DALL-E-2024-05-15-01-18-05-A-visually-compelling-blog-cover-photo-showcasing-the-theme-of-LLM-applic.webp"
 catalog: true
 tags:
     - llm
