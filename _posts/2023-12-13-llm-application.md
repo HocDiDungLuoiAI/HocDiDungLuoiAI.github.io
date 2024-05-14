@@ -9,17 +9,34 @@ catalog: true
 tags:
     - llm
     - application 
+    - chat model
 ---
+## LLM Application
 
-Tạo một em em uplication hiện tại đang là một trong những xu hướng mà bạn bắt buộc phải nắm bắt được
+### LLM Là gì?
 
-về cơ bản thì chúng ta sẽ thực hiện tạo một LOL application bằng việc biến các mô hình ngôn ngữ lớn thành một function
+LLM là Large Language Model - Mô hình ngôn ngữ lớn. 
+Tới thời điểm mà người viết cập nhật lại bài viết, tức là 15/05/2024. Chúng ta phần lớn sẽ sử dụng sang Chat Model thay vì LLM.
 
-điểm quan trọng của llm application là việc bạn cần phải có data từ trước
+LLM có một khả năng quan trọng: text completion - nó có khả năng hoàn thiện, gợi ý từ tiếp theo/ có vẻ/ rất hợp lý với câu văn và đoạn văn. 
 
-ví dụ bạn muốn thay thế bộ phận marketing của công ty trong khi đó bình thường.
+ "Chat Model" thì cơ chế hoạt động có khác hơn. Với một vai trò là người trợ lý thông minh và tận tụy nó sẽ trao đổi, giải đáp yêu cầu của người dùng. (Đối với việc hoàn thành task thì còn đang phát triển, có nhiều nhưng chưa thực sự nổi bật)
 
-data ở đây là toàn bộ những data mà các đơn vị marketing đã thực hiện trong toàn bộ các chu trình của họ.
+### Kiến trúc
 
-bản chất cuối cùng là họ sẽ có một tệp khách hàng để cung cấp cho đơn vị thực hiện khai thác.
-việc phân tích ra các khách hàng nào có nhu cầu sử dụng và sẵn sàng chi ra các ngân sách.
+LLM/Chat Model: Sử dụng để thực hiện các công việc xử lý ngữ nghĩa
+Data Service: Quản lý dữ liệu
+API: Cung cấp phương thức giao tiếp đối với các ứng dụng người dùng cuối.
+Vector DB: Cung cấp nơi lưu trữ các vector để thực hiện các phép toán nhanh chóng.
+Search Engine: Cung cấp bộ tìm kiếm cho ứng dụng
+Internet Service: Cung cấp engine để truy cập vào nội dung từng trang web.
+
+### Use Cases
+
+- Một số user reddit chia sẻ về việc làm ứng dụng LLM cung cấp dịch vụ tư vấn hẹn hò, ứng dụng này kiếm tới hàng chục nghìn đô mỗi tháng
+- Thay thế cho các công việc trí óc, cần xử lý ngữ nghĩa đơn giản. 
+
+Bài viết hôm nay đến đây thôi. Chúc các bạn có một ngày làm việc hiệu quả. 
+
+Nguyễn Khánh Thuận
+hocdidungluoi.space
