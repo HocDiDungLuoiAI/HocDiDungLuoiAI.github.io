@@ -25,10 +25,15 @@ LLM có một khả năng quan trọng: text completion - nó có khả năng ho
 ### Kiến trúc
 
 LLM/Chat Model: Sử dụng để thực hiện các công việc xử lý ngữ nghĩa
+
 Data Service: Quản lý dữ liệu
+
 API: Cung cấp phương thức giao tiếp đối với các ứng dụng người dùng cuối.
+
 Vector DB: Cung cấp nơi lưu trữ các vector để thực hiện các phép toán nhanh chóng.
+
 Search Engine: Cung cấp bộ tìm kiếm cho ứng dụng
+
 Internet Service: Cung cấp engine để truy cập vào nội dung từng trang web.
 
 ### Use Cases
